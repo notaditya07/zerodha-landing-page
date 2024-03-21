@@ -2,112 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zerodha</title>
-    <link rel="stylesheet"  rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <style>
-        * {
-            margin:0;
-            padding:0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .container{
-            display: flex;
-            justify-content: space-between;
-            padding-left: 82px;
-            padding-right: 65px;
-            padding-top: 10px;
-            align-items: center;
-            box-shadow: 0px 2px 2px rgb(244, 243, 243);
-        }
-        .container img{
-            width:130px;
-            height:17px;
-        }
-        .rightchild {
-            display: flex;
-            justify-content: space-between;
-        }
-        .rightchild .new {
-            padding :15px 23px;
-        }
-        .rightchild a {
-            text-decoration: none;
-            font-size: 15px;
-            color:rgb(129, 127, 127);
-        }
-        .rightchild a:hover {
-            color:rgb(54, 120, 232);
-            transform: 0.3s;
-            cursor: pointer;
-        }
-        .nav {
-            text-align: center;
-        }
-        .image {
-            margin-top: 55px;
-            margin-bottom: 60px;
-        }
-        .image img{
-            width:610px;
-            height:270px;
-        }
-        
-        .head {
-            font-size: 2.75rem;
-            line-height: 1.25;
-            font-weight: 500;
-            color: #424242;
-            
-            
-        }
-        .para{
-            font-size: 20px;
-            font-weight:100;
-            margin-top:10px;
-            margin-bottom:20px;
-            color: #424242;
-        }
-        .btn{
-           margin:50px 0px;
-         
-        }
-        .btn button {
-            color:white;
-            background-color: rgb(58, 120, 212);
-            font-size: 1.2em;
-            padding:10px 30px;
-            border:1px solid rgb(255, 255, 255);
-            border-radius: 3px;
-        }
-        button:hover{
-            background-color: black;
-            cursor: pointer;
-        }
-    </style>
+    <title>zerodha landing page</title>
 </head>
 <body>
-    <div class="container">
-        <div><img src="./images/logo.svg"></div>
-        <div class="rightchild">
-            <div class="new"><a href="#">Signup</a></div>
-            <div class="new"><a href="#">About</a></div>
-            <div class="new"><a href="#">Products</a></div>
-            <div class="new"><a href="#">Pricing</a></div>
-            <div class="new"><a href="#">Support</a></div>
-            <div class="new"><i class="fa-solid fa-bars"></i></div>
+    <div style="display: flex; justify-content: space-between; box-shadow: 2px 1px 2px #eee; padding-left: 200px; padding-right: 200px;">
+        <img src="./asset/logo.svg" alt="no image " width="120" height="17px" style="padding: top 18px;">
 
+     
+    <div style="display: flex;">
+        <div style= "padding: 18px; color: #666; cursor: pointer;">
+            signup
         </div>
-    </div>
-    <div class="nav">
-    <div class="image"><img src="./images/landing.png"></div>
-        <div class="head"><p style="font-weight: 548 ; color: #424242;">Invest in everything</b></div>
-        <div class="para"><p >Online platform to invest in stocks, derivatives, mutual funds, and more</p></div>
-        <div  class="btn"><button>Sign up now</button></div>
-    </div>
-    
+        <div style="padding:18px; color: #666;cursor: pointer;">
+            About
+        </div>
+        <div style="padding: 18px; color: #666;cursor: pointer;">
+            Products
+        </div>
+        <div style="padding: 18px; color: #666;cursor: pointer;">
+            Pricing
+        </div>
+        <div style="padding: 18px; color: #666;cursor: pointer;">
+            Support
+        </div>
+        </div>
+        </div>
+        <br/>
+        <div style="display:flex; justify-content: center; padding-top: 20px">
+            <img src="./asset/landing.png" alt="" width="1000">
+        </div>
 
+        <div style="display: flex; justify-content: center; padding-top: 10px;">
+            <h1 style="font: weight 400;">Invest in everything</h1>
+        </div>
     
-</body>
-</html>
+        <div style="display: flex; justify-content: center;">
+            <h2 style="font-weight: 200; font-family: Int;">Online platform to invest in stocks, derivatives, mutual funds, and more</h2>
+        </div>
+    
+        <div style="display: flex; justify-content: center;">
+        <div style="background-color: #387ed1; padding: 10px; color: white; border-radius: 3px; font-size: 20px; cursor: pointer;">Sign up now</div>
+        </div>
+    </body>
+    </html>
